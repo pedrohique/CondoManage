@@ -1,0 +1,319 @@
+2024-07-07 23:40:11,734 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-07 23:40:11,734 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-07 23:40:13,727 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-07 23:40:19,203 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-07 23:40:22,556 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-07 23:40:22,556 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-07 23:40:24,872 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-07 23:40:25,544 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-07 23:40:26,537 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-07 23:40:27,308 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-07 23:40:28,060 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-07 23:40:28,788 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 00:03:36,967 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 00:03:36,968 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 00:03:39,488 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 00:03:47,790 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 00:03:52,199 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 00:03:52,199 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 00:03:55,209 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 00:03:55,947 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 00:03:57,046 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 00:03:58,372 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 00:03:59,547 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 00:04:00,840 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 13:35:46,537 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 13:35:46,537 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 13:35:47,885 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 13:35:52,786 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 13:35:55,704 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 13:35:55,705 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 13:35:58,017 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 13:35:58,744 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 13:35:59,825 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 13:36:00,737 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 13:36:01,630 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 13:36:02,430 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 13:36:45,900 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 13:36:45,901 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 13:36:47,287 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 13:36:47,857 - ingestDataLogger - ERROR - Erro ao ingerir dados CSV: An error occurred while calling o56.csv
+2024-07-08 13:36:48,408 - ingestDataLogger - ERROR - Erro ao ingerir dados do banco de dados: Error while sending or receiving
+2024-07-08 13:36:48,408 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 13:36:48,409 - ingestDataLogger - ERROR - Erro ao enviar dados da API para o S3 fake: [Errno 111] Connection refused
+2024-07-08 13:36:58,513 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 13:36:58,513 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 13:36:59,954 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 13:37:04,868 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 13:37:07,914 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 13:37:07,914 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 13:37:10,215 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 13:37:10,925 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 13:37:12,145 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 13:37:13,422 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 13:37:14,894 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 13:37:16,159 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 13:44:17,308 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 13:44:17,309 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 13:44:18,726 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 13:44:23,598 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 13:44:26,682 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 13:44:26,682 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 13:44:28,886 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 13:44:29,502 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 13:44:30,410 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 13:44:31,205 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 13:44:31,963 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 13:44:32,776 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 13:51:44,019 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 13:51:44,019 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 13:51:45,423 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 13:51:49,994 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 13:51:53,199 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 13:51:53,200 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 13:51:53,417 - ingestDataLogger - ERROR - Erro ao enviar dados da API para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:51:53,433 - ingestDataLogger - ERROR - Erro ao enviar dados CSV para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:51:53,453 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela transacoes para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:51:53,502 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela imoveis para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:51:53,519 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela moradores para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:51:53,535 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela condominios para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:52:34,929 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 13:52:34,929 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 13:52:36,245 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 13:52:40,926 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 13:52:43,936 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 13:52:43,937 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 13:52:44,131 - ingestDataLogger - ERROR - Erro ao enviar dados da API para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:52:44,150 - ingestDataLogger - ERROR - Erro ao enviar dados CSV para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:52:44,195 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela transacoes para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:52:44,217 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela imoveis para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:52:44,237 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela moradores para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 13:52:44,256 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela condominios para o S3 fake: [WRITE_STREAM_NOT_ALLOWED] `writeStream` can be called only on streaming Dataset/DataFrame.
+2024-07-08 14:01:33,080 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:01:33,081 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:01:34,499 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:01:40,941 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:01:44,471 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:01:44,471 - ingestDataLogger - INFO - Schema for table transacoes:
+2024-07-08 14:01:45,270 - ingestDataLogger - INFO - Schema for table imoveis:
+2024-07-08 14:01:45,918 - ingestDataLogger - INFO - Schema for table moradores:
+2024-07-08 14:01:46,661 - ingestDataLogger - INFO - Schema for table condominios:
+2024-07-08 14:01:47,204 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:03:17,451 - ingestDataLogger - ERROR - Erro ao enviar dados da API para o S3 fake: An error occurred while calling o370.awaitTermination
+2024-07-08 14:03:40,470 - ingestDataLogger - ERROR - Erro ao enviar dados CSV para o S3 fake: An error occurred while calling o375.awaitTermination
+2024-07-08 14:03:40,951 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela transacoes para o S3 fake: An error occurred while calling o380.awaitTermination
+2024-07-08 14:03:41,172 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela imoveis para o S3 fake: An error occurred while calling o384.start
+2024-07-08 14:03:42,170 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela moradores para o S3 fake: An error occurred while calling o391.awaitTermination
+2024-07-08 14:03:42,685 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela condominios para o S3 fake: An error occurred while calling o396.awaitTermination
+2024-07-08 14:06:08,236 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:06:08,236 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:06:09,630 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:06:15,907 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:06:19,632 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:06:19,633 - ingestDataLogger - INFO - Schema for table transacoes:
+2024-07-08 14:06:20,604 - ingestDataLogger - INFO - Schema for table imoveis:
+2024-07-08 14:06:21,220 - ingestDataLogger - INFO - Schema for table moradores:
+2024-07-08 14:06:21,879 - ingestDataLogger - INFO - Schema for table condominios:
+2024-07-08 14:06:22,501 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:06:56,276 - ingestDataLogger - ERROR - Erro ao enviar dados da API para o S3 fake: An error occurred while calling o370.awaitTermination
+2024-07-08 14:06:56,457 - ingestDataLogger - ERROR - Erro ao enviar dados CSV para o S3 fake: An error occurred while calling o375.awaitTermination
+2024-07-08 14:06:56,632 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela transacoes para o S3 fake: An error occurred while calling o380.awaitTermination
+2024-07-08 14:06:56,815 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela imoveis para o S3 fake: An error occurred while calling o385.awaitTermination
+2024-07-08 14:06:58,191 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela moradores para o S3 fake: An error occurred while calling o390.awaitTermination
+2024-07-08 14:06:58,693 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela condominios para o S3 fake: An error occurred while calling o395.awaitTermination
+2024-07-08 14:07:39,775 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:07:39,775 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:07:41,273 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:07:48,322 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:07:51,875 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:07:51,875 - ingestDataLogger - INFO - Schema for table transacoes:
+2024-07-08 14:07:52,747 - ingestDataLogger - INFO - Schema for table imoveis:
+2024-07-08 14:07:53,604 - ingestDataLogger - INFO - Schema for table moradores:
+2024-07-08 14:07:54,406 - ingestDataLogger - INFO - Schema for table condominios:
+2024-07-08 14:07:55,486 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:12:39,841 - ingestDataLogger - ERROR - Erro ao enviar dados da API para o S3 fake: An error occurred while calling o369.awaitTermination
+2024-07-08 14:12:40,002 - ingestDataLogger - ERROR - Erro ao enviar dados CSV para o S3 fake: An error occurred while calling o373.start.
+: java.lang.IllegalStateException: Cannot call methods on a stopped SparkContext.
+This stopped SparkContext was created at:
+
+org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+py4j.Gateway.invoke(Gateway.java:238)
+py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+java.base/java.lang.Thread.run(Thread.java:829)
+
+The currently active SparkContext was created at:
+
+org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+py4j.Gateway.invoke(Gateway.java:238)
+py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+java.base/java.lang.Thread.run(Thread.java:829)
+         
+	at org.apache.spark.SparkContext.assertNotStopped(SparkContext.scala:122)
+	at org.apache.spark.sql.SparkSession.<init>(SparkSession.scala:113)
+	at org.apache.spark.sql.SparkSession.cloneSession(SparkSession.scala:278)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.<init>(StreamExecution.scala:197)
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.<init>(MicroBatchExecution.scala:49)
+	at org.apache.spark.sql.streaming.StreamingQueryManager.createQuery(StreamingQueryManager.scala:295)
+	at org.apache.spark.sql.streaming.StreamingQueryManager.startQuery(StreamingQueryManager.scala:346)
+	at org.apache.spark.sql.streaming.DataStreamWriter.startQuery(DataStreamWriter.scala:433)
+	at org.apache.spark.sql.streaming.DataStreamWriter.startInternal(DataStreamWriter.scala:410)
+	at org.apache.spark.sql.streaming.DataStreamWriter.start(DataStreamWriter.scala:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2024-07-08 14:12:40,522 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela transacoes para o S3 fake: py4j.reflection does not exist in the JVM
+2024-07-08 14:12:40,522 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela imoveis para o S3 fake: [Errno 111] Connection refused
+2024-07-08 14:12:40,523 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela moradores para o S3 fake: [Errno 111] Connection refused
+2024-07-08 14:12:40,523 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela condominios para o S3 fake: [Errno 111] Connection refused
+2024-07-08 14:20:06,853 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:20:06,853 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:20:08,331 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:20:12,625 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:20:15,732 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:20:15,732 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:20:18,062 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 14:20:18,644 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 14:20:19,665 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 14:20:20,473 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 14:20:21,368 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 14:20:22,100 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 14:21:28,611 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:21:28,611 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:21:30,101 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:21:36,593 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:21:40,142 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:21:40,142 - ingestDataLogger - INFO - Schema for table transacoes:
+2024-07-08 14:21:40,978 - ingestDataLogger - INFO - Schema for table imoveis:
+2024-07-08 14:21:41,649 - ingestDataLogger - INFO - Schema for table moradores:
+2024-07-08 14:21:42,321 - ingestDataLogger - INFO - Schema for table condominios:
+2024-07-08 14:21:43,021 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:22:32,990 - ingestDataLogger - ERROR - Erro ao enviar dados da API para o S3 fake: An error occurred while calling o362.awaitTermination
+2024-07-08 14:22:34,465 - ingestDataLogger - ERROR - Erro ao enviar dados CSV para o S3 fake: An error occurred while calling o367.awaitTermination
+2024-07-08 14:22:34,683 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela transacoes para o S3 fake: An error occurred while calling o372.awaitTermination
+2024-07-08 14:22:34,926 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela imoveis para o S3 fake: An error occurred while calling o377.awaitTermination
+2024-07-08 14:22:35,425 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela moradores para o S3 fake: An error occurred while calling o382.awaitTermination
+2024-07-08 14:22:35,460 - ingestDataLogger - ERROR - Erro ao enviar dados da tabela condominios para o S3 fake: An error occurred while calling o386.start
+2024-07-08 14:32:10,499 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:32:10,499 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:32:14,139 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:32:23,327 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:32:29,461 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:32:29,462 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:32:34,186 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 14:32:35,480 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 14:32:37,884 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 14:32:39,915 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 14:32:41,902 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 14:32:43,576 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 14:34:29,795 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:34:29,796 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:34:32,966 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:34:44,131 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:34:50,844 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:34:50,845 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:34:55,650 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 14:34:56,867 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 14:34:58,687 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 14:35:00,470 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 14:35:01,909 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 14:35:03,175 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 14:36:57,066 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:36:57,067 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:36:59,956 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:37:08,791 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:37:16,450 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:37:16,451 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:37:21,450 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 14:37:22,539 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 14:37:24,731 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 14:37:26,874 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 14:37:28,373 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 14:37:29,800 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 14:39:01,010 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:39:01,015 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:39:02,990 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:39:09,493 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:39:14,605 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:39:14,606 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:39:18,841 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 14:39:19,837 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 14:39:21,431 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 14:39:22,900 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 14:39:24,308 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 14:39:25,626 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 14:40:02,082 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:40:02,082 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:40:04,119 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:40:10,496 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:40:15,157 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:40:15,157 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:40:18,313 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 14:40:19,354 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 14:40:21,089 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 14:40:22,266 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 14:40:23,502 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 14:40:24,773 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 14:44:29,368 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:44:29,369 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:44:31,741 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:44:40,124 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:44:45,903 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:44:45,903 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:44:49,867 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 14:44:50,734 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 14:44:52,171 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 14:44:53,937 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 14:44:55,191 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 14:44:56,471 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append
+2024-07-08 14:49:40,470 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 14:49:40,470 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 14:49:41,866 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 14:49:46,327 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 14:49:49,388 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 14:49:49,388 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 14:49:51,426 - ingestDataLogger - INFO - Dados da API enviados
+2024-07-08 14:49:51,982 - ingestDataLogger - INFO - Dados CSV enviados
+2024-07-08 14:49:52,853 - ingestDataLogger - INFO - Dados da tabela transacoes enviados
+2024-07-08 14:49:53,545 - ingestDataLogger - INFO - Dados da tabela imoveis enviados
+2024-07-08 14:49:54,243 - ingestDataLogger - INFO - Dados da tabela moradores enviados
+2024-07-08 14:49:54,905 - ingestDataLogger - INFO - Dados da tabela condominios enviados
+2024-07-08 15:15:51,049 - ingestDataLogger - INFO - Inicializando DataIngest
+2024-07-08 15:15:51,050 - ingestDataLogger - INFO - Iniciando o pipeline de ingestão de dados
+2024-07-08 15:15:54,114 - ingestDataLogger - INFO - Dados da API ingeridos
+2024-07-08 15:16:04,696 - ingestDataLogger - INFO - Dados CSV ingeridos
+2024-07-08 15:16:11,341 - ingestDataLogger - INFO - Dados do banco de dados ingeridos
+2024-07-08 15:16:11,342 - ingestDataLogger - INFO - Enviando dados para o S3 fake
+2024-07-08 15:16:16,075 - ingestDataLogger - INFO - Dados da API enviados em modo append
+2024-07-08 15:16:17,284 - ingestDataLogger - INFO - Dados CSV enviados em modo append
+2024-07-08 15:16:19,203 - ingestDataLogger - INFO - Dados da tabela transacoes enviados em modo append
+2024-07-08 15:16:20,955 - ingestDataLogger - INFO - Dados da tabela imoveis enviados em modo append
+2024-07-08 15:16:22,841 - ingestDataLogger - INFO - Dados da tabela moradores enviados em modo append
+2024-07-08 15:16:24,492 - ingestDataLogger - INFO - Dados da tabela condominios enviados em modo append

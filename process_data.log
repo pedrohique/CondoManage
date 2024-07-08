@@ -1,0 +1,296 @@
+2024-07-07 23:59:07,161 - ProcessDataLogger - INFO - Inicializando o objeto de processamento de dados
+2024-07-07 23:59:07,161 - ProcessDataLogger - INFO - Iniciando a sessão Spark
+2024-07-07 23:59:10,491 - ProcessDataLogger - INFO - Iniciando o pipeline de processamento de dados
+2024-07-07 23:59:10,491 - ProcessDataLogger - INFO - Lendo dados de entrada
+2024-07-07 23:59:10,491 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/condominios
+2024-07-07 23:59:14,642 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/moradores
+2024-07-07 23:59:14,951 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/imoveis
+2024-07-07 23:59:15,200 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/transacoes
+2024-07-07 23:59:15,851 - ProcessDataLogger - INFO - Processando dados
+2024-07-07 23:59:16,314 - ProcessDataLogger - INFO - Salvando dados transformados no Data Lake
+2024-07-08 00:05:11,715 - ProcessDataLogger - ERROR - Erro ao salvar dados transformados: An error occurred while calling o145.awaitTermination
+2024-07-08 00:05:11,950 - ProcessDataLogger - INFO - Pipeline de processamento de dados concluído
+2024-07-08 14:30:21,379 - ProcessDataLogger - INFO - Inicializando o objeto de processamento de dados
+2024-07-08 14:30:21,379 - ProcessDataLogger - INFO - Iniciando a sessão Spark
+2024-07-08 14:30:25,078 - ProcessDataLogger - INFO - Iniciando o pipeline de processamento de dados
+2024-07-08 14:30:25,078 - ProcessDataLogger - INFO - Lendo dados de entrada
+2024-07-08 14:30:25,078 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/condominios
+2024-07-08 14:30:29,138 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/moradores
+2024-07-08 14:30:29,384 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/imoveis
+2024-07-08 14:30:29,617 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/transacoes
+2024-07-08 14:30:30,264 - ProcessDataLogger - INFO - Processando dados
+2024-07-08 14:30:30,713 - ProcessDataLogger - INFO - Salvando dados transformados no Data Lake
+2024-07-08 14:49:04,116 - ProcessDataLogger - ERROR - Erro ao salvar dados transformados: An error occurred while calling o145.awaitTermination
+2024-07-08 14:50:24,790 - ProcessDataLogger - INFO - Inicializando o objeto de processamento de dados
+2024-07-08 14:50:24,790 - ProcessDataLogger - INFO - Iniciando a sessão Spark
+2024-07-08 14:50:28,144 - ProcessDataLogger - INFO - Iniciando o pipeline de processamento de dados
+2024-07-08 14:50:28,144 - ProcessDataLogger - INFO - Lendo dados de entrada
+2024-07-08 14:50:28,144 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/condominios
+2024-07-08 14:50:31,663 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/moradores
+2024-07-08 14:50:31,903 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/imoveis
+2024-07-08 14:50:32,120 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/transacoes
+2024-07-08 14:50:32,596 - ProcessDataLogger - INFO - Processando dados
+2024-07-08 14:50:33,092 - ProcessDataLogger - INFO - Salvando dados transformados no Data Lake
+2024-07-08 14:51:44,317 - ProcessDataLogger - ERROR - Erro ao salvar dados transformados: An error occurred while calling o145.awaitTermination
+2024-07-08 14:51:58,826 - ProcessDataLogger - INFO - Inicializando o objeto de processamento de dados
+2024-07-08 14:51:58,826 - ProcessDataLogger - INFO - Iniciando a sessão Spark
+2024-07-08 14:52:01,288 - ProcessDataLogger - INFO - Iniciando o pipeline de processamento de dados
+2024-07-08 14:52:01,288 - ProcessDataLogger - INFO - Lendo dados de entrada
+2024-07-08 14:52:01,289 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/condominios
+2024-07-08 14:52:05,112 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/moradores
+2024-07-08 14:52:05,357 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/imoveis
+2024-07-08 14:52:05,608 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/transacoes
+2024-07-08 14:52:06,128 - ProcessDataLogger - INFO - Processando dados
+2024-07-08 14:52:06,656 - ProcessDataLogger - INFO - Salvando dados transformados no Data Lake
+2024-07-08 14:52:27,786 - ProcessDataLogger - ERROR - Erro ao salvar dados transformados: [STREAM_FAILED] Query [id = d6eeafc4-0108-4f5e-a18f-6028553f7f8d, runId = 74aaac58-a304-47cf-ba85-62c0eefd9125] terminated with exception: Job aborted due to stage failure: Task 0 in stage 8.0 failed 1 times, most recent failure: Lost task 0.0 in stage 8.0 (TID 204) (192.168.1.4 executor driver): org.apache.spark.sql.execution.streaming.state.StateSchemaNotCompatible: Provided schema doesn't match to the schema for existing state! Please note that Spark allow difference of field name: check count of fields and data type of each field.
+- Provided key schema: StructType(StructField(field0,IntegerType,true),StructField(index,LongType,true))
+- Existing key schema: StructType(StructField(field0,IntegerType,true),StructField(index,LongType,true))
+- Provided value schema: StructType(StructField(imovel_id,IntegerType,true),StructField(condominio_id,IntegerType,true),StructField(matched,BooleanType,true))
+- Existing value schema: StructType(StructField(imovel_id,IntegerType,false),StructField(condominio_id,IntegerType,true),StructField(matched,BooleanType,true))
+If you want to force running query without schema validation, please set spark.sql.streaming.stateStore.stateSchemaCheck to false.
+Please note running query with incompatible schema could cause indeterministic behavior.
+	at org.apache.spark.sql.execution.streaming.state.StateSchemaCompatibilityChecker.check(StateSchemaCompatibilityChecker.scala:77)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.$anonfun$getStateStoreProvider$2(StateStore.scala:529)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.$anonfun$getStateStoreProvider$1(StateStore.scala:528)
+	at scala.collection.mutable.HashMap.getOrElseUpdate(HashMap.scala:86)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.getStateStoreProvider(StateStore.scala:521)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.get(StateStore.scala:506)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager$StateStoreHandler.getStateStore(SymmetricHashJoinStateManager.scala:417)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager$KeyWithIndexToValueStore.<init>(SymmetricHashJoinStateManager.scala:600)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager.<init>(SymmetricHashJoinStateManager.scala:386)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec$OneSideHashJoiner.<init>(StreamingSymmetricHashJoinExec.scala:529)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.processPartitions(StreamingSymmetricHashJoinExec.scala:280)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.$anonfun$doExecute$1(StreamingSymmetricHashJoinExec.scala:241)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.$anonfun$doExecute$1$adapted(StreamingSymmetricHashJoinExec.scala:241)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinHelper$StateStoreAwareZipPartitionsRDD.compute(StreamingSymmetricHashJoinHelper.scala:295)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:104)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:166)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Driver stacktrace:
+2024-07-08 14:52:28,517 - ProcessDataLogger - INFO - Pipeline de processamento de dados concluído
+2024-07-08 14:57:32,479 - ProcessDataLogger - INFO - Inicializando o objeto de processamento de dados
+2024-07-08 14:57:32,479 - ProcessDataLogger - INFO - Iniciando a sessão Spark
+2024-07-08 14:57:35,907 - ProcessDataLogger - INFO - Iniciando o pipeline de processamento de dados
+2024-07-08 14:57:35,907 - ProcessDataLogger - INFO - Lendo dados de entrada
+2024-07-08 14:57:35,908 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/condominios
+2024-07-08 14:57:39,486 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/moradores
+2024-07-08 14:57:39,685 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/imoveis
+2024-07-08 14:57:39,963 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/transacoes
+2024-07-08 14:57:40,456 - ProcessDataLogger - INFO - Processando dados
+2024-07-08 14:57:40,901 - ProcessDataLogger - INFO - Salvando dados transformados no Data Lake
+2024-07-08 14:57:47,558 - ProcessDataLogger - ERROR - Erro ao salvar dados transformados: [STREAM_FAILED] Query [id = d6eeafc4-0108-4f5e-a18f-6028553f7f8d, runId = 659f379a-62d4-487f-8bc7-e9b76683794e] terminated with exception: Job aborted due to stage failure: Task 0 in stage 6.0 failed 1 times, most recent failure: Lost task 0.0 in stage 6.0 (TID 4) (192.168.1.4 executor driver): org.apache.spark.sql.execution.streaming.state.StateSchemaNotCompatible: Provided schema doesn't match to the schema for existing state! Please note that Spark allow difference of field name: check count of fields and data type of each field.
+- Provided key schema: StructType(StructField(field0,IntegerType,true),StructField(index,LongType,true))
+- Existing key schema: StructType(StructField(field0,IntegerType,true),StructField(index,LongType,true))
+- Provided value schema: StructType(StructField(imovel_id,IntegerType,true),StructField(condominio_id,IntegerType,true),StructField(matched,BooleanType,true))
+- Existing value schema: StructType(StructField(imovel_id,IntegerType,false),StructField(condominio_id,IntegerType,true),StructField(matched,BooleanType,true))
+If you want to force running query without schema validation, please set spark.sql.streaming.stateStore.stateSchemaCheck to false.
+Please note running query with incompatible schema could cause indeterministic behavior.
+	at org.apache.spark.sql.execution.streaming.state.StateSchemaCompatibilityChecker.check(StateSchemaCompatibilityChecker.scala:77)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.$anonfun$getStateStoreProvider$2(StateStore.scala:529)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.$anonfun$getStateStoreProvider$1(StateStore.scala:528)
+	at scala.collection.mutable.HashMap.getOrElseUpdate(HashMap.scala:86)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.getStateStoreProvider(StateStore.scala:521)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.get(StateStore.scala:506)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager$StateStoreHandler.getStateStore(SymmetricHashJoinStateManager.scala:417)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager$KeyWithIndexToValueStore.<init>(SymmetricHashJoinStateManager.scala:600)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager.<init>(SymmetricHashJoinStateManager.scala:386)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec$OneSideHashJoiner.<init>(StreamingSymmetricHashJoinExec.scala:529)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.processPartitions(StreamingSymmetricHashJoinExec.scala:280)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.$anonfun$doExecute$1(StreamingSymmetricHashJoinExec.scala:241)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.$anonfun$doExecute$1$adapted(StreamingSymmetricHashJoinExec.scala:241)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinHelper$StateStoreAwareZipPartitionsRDD.compute(StreamingSymmetricHashJoinHelper.scala:295)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:104)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:166)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Driver stacktrace:
+2024-07-08 14:57:48,106 - ProcessDataLogger - INFO - Pipeline de processamento de dados concluído
+2024-07-08 14:58:10,493 - ProcessDataLogger - INFO - Inicializando o objeto de processamento de dados
+2024-07-08 14:58:10,493 - ProcessDataLogger - INFO - Iniciando a sessão Spark
+2024-07-08 14:58:13,541 - ProcessDataLogger - INFO - Iniciando o pipeline de processamento de dados
+2024-07-08 14:58:13,542 - ProcessDataLogger - INFO - Lendo dados de entrada
+2024-07-08 14:58:13,542 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/condominios
+2024-07-08 14:58:22,447 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/moradores
+2024-07-08 14:58:22,811 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/imoveis
+2024-07-08 14:58:23,127 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/transacoes
+2024-07-08 14:58:23,815 - ProcessDataLogger - INFO - Processando dados
+2024-07-08 14:58:24,377 - ProcessDataLogger - INFO - Salvando dados transformados no Data Lake
+2024-07-08 14:58:35,183 - ProcessDataLogger - ERROR - Erro ao salvar dados transformados: [STREAM_FAILED] Query [id = d6eeafc4-0108-4f5e-a18f-6028553f7f8d, runId = 01539e43-b989-4cae-bcb2-ba655d459843] terminated with exception: Job aborted due to stage failure: Task 0 in stage 6.0 failed 1 times, most recent failure: Lost task 0.0 in stage 6.0 (TID 4) (192.168.1.4 executor driver): org.apache.spark.sql.execution.streaming.state.StateSchemaNotCompatible: Provided schema doesn't match to the schema for existing state! Please note that Spark allow difference of field name: check count of fields and data type of each field.
+- Provided key schema: StructType(StructField(field0,IntegerType,true),StructField(index,LongType,true))
+- Existing key schema: StructType(StructField(field0,IntegerType,true),StructField(index,LongType,true))
+- Provided value schema: StructType(StructField(imovel_id,IntegerType,true),StructField(condominio_id,IntegerType,true),StructField(matched,BooleanType,true))
+- Existing value schema: StructType(StructField(imovel_id,IntegerType,false),StructField(condominio_id,IntegerType,true),StructField(matched,BooleanType,true))
+If you want to force running query without schema validation, please set spark.sql.streaming.stateStore.stateSchemaCheck to false.
+Please note running query with incompatible schema could cause indeterministic behavior.
+	at org.apache.spark.sql.execution.streaming.state.StateSchemaCompatibilityChecker.check(StateSchemaCompatibilityChecker.scala:77)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.$anonfun$getStateStoreProvider$2(StateStore.scala:529)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.$anonfun$getStateStoreProvider$1(StateStore.scala:528)
+	at scala.collection.mutable.HashMap.getOrElseUpdate(HashMap.scala:86)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.getStateStoreProvider(StateStore.scala:521)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.get(StateStore.scala:506)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager$StateStoreHandler.getStateStore(SymmetricHashJoinStateManager.scala:417)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager$KeyWithIndexToValueStore.<init>(SymmetricHashJoinStateManager.scala:600)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager.<init>(SymmetricHashJoinStateManager.scala:386)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec$OneSideHashJoiner.<init>(StreamingSymmetricHashJoinExec.scala:529)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.processPartitions(StreamingSymmetricHashJoinExec.scala:280)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.$anonfun$doExecute$1(StreamingSymmetricHashJoinExec.scala:241)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.$anonfun$doExecute$1$adapted(StreamingSymmetricHashJoinExec.scala:241)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinHelper$StateStoreAwareZipPartitionsRDD.compute(StreamingSymmetricHashJoinHelper.scala:295)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:104)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:166)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Driver stacktrace:
+2024-07-08 14:58:35,874 - ProcessDataLogger - INFO - Pipeline de processamento de dados concluído
+2024-07-08 15:00:10,248 - ProcessDataLogger - INFO - Inicializando o objeto de processamento de dados
+2024-07-08 15:00:10,248 - ProcessDataLogger - INFO - Iniciando a sessão Spark
+2024-07-08 15:00:12,999 - ProcessDataLogger - INFO - Iniciando o pipeline de processamento de dados
+2024-07-08 15:00:12,999 - ProcessDataLogger - INFO - Lendo dados de entrada
+2024-07-08 15:00:12,999 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/condominios
+2024-07-08 15:00:17,123 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/moradores
+2024-07-08 15:00:17,376 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/imoveis
+2024-07-08 15:00:17,607 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/transacoes
+2024-07-08 15:00:18,219 - ProcessDataLogger - INFO - Processando dados
+2024-07-08 15:00:18,723 - ProcessDataLogger - INFO - Salvando dados transformados no Data Lake
+2024-07-08 15:00:25,743 - ProcessDataLogger - ERROR - Erro ao salvar dados transformados: [STREAM_FAILED] Query [id = d6eeafc4-0108-4f5e-a18f-6028553f7f8d, runId = cbaae2af-ed08-4e81-a57d-9a0e1b6fe270] terminated with exception: Job aborted due to stage failure: Task 0 in stage 6.0 failed 1 times, most recent failure: Lost task 0.0 in stage 6.0 (TID 4) (192.168.1.4 executor driver): org.apache.spark.sql.execution.streaming.state.StateSchemaNotCompatible: Provided schema doesn't match to the schema for existing state! Please note that Spark allow difference of field name: check count of fields and data type of each field.
+- Provided key schema: StructType(StructField(field0,IntegerType,true),StructField(index,LongType,true))
+- Existing key schema: StructType(StructField(field0,IntegerType,true),StructField(index,LongType,true))
+- Provided value schema: StructType(StructField(imovel_id,IntegerType,true),StructField(condominio_id,IntegerType,true),StructField(matched,BooleanType,true))
+- Existing value schema: StructType(StructField(imovel_id,IntegerType,false),StructField(condominio_id,IntegerType,true),StructField(matched,BooleanType,true))
+If you want to force running query without schema validation, please set spark.sql.streaming.stateStore.stateSchemaCheck to false.
+Please note running query with incompatible schema could cause indeterministic behavior.
+	at org.apache.spark.sql.execution.streaming.state.StateSchemaCompatibilityChecker.check(StateSchemaCompatibilityChecker.scala:77)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.$anonfun$getStateStoreProvider$2(StateStore.scala:529)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.$anonfun$getStateStoreProvider$1(StateStore.scala:528)
+	at scala.collection.mutable.HashMap.getOrElseUpdate(HashMap.scala:86)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.getStateStoreProvider(StateStore.scala:521)
+	at org.apache.spark.sql.execution.streaming.state.StateStore$.get(StateStore.scala:506)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager$StateStoreHandler.getStateStore(SymmetricHashJoinStateManager.scala:417)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager$KeyWithIndexToValueStore.<init>(SymmetricHashJoinStateManager.scala:600)
+	at org.apache.spark.sql.execution.streaming.state.SymmetricHashJoinStateManager.<init>(SymmetricHashJoinStateManager.scala:386)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec$OneSideHashJoiner.<init>(StreamingSymmetricHashJoinExec.scala:529)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.processPartitions(StreamingSymmetricHashJoinExec.scala:280)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.$anonfun$doExecute$1(StreamingSymmetricHashJoinExec.scala:241)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinExec.$anonfun$doExecute$1$adapted(StreamingSymmetricHashJoinExec.scala:241)
+	at org.apache.spark.sql.execution.streaming.StreamingSymmetricHashJoinHelper$StateStoreAwareZipPartitionsRDD.compute(StreamingSymmetricHashJoinHelper.scala:295)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:367)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:331)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:104)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:166)
+	at org.apache.spark.scheduler.Task.run(Task.scala:141)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:620)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:64)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:61)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:94)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:623)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Driver stacktrace:
+2024-07-08 15:00:26,293 - ProcessDataLogger - INFO - Pipeline de processamento de dados concluído
+2024-07-08 15:09:47,447 - ProcessDataLogger - INFO - Inicializando o objeto de processamento de dados
+2024-07-08 15:09:47,447 - ProcessDataLogger - INFO - Iniciando a sessão Spark
+2024-07-08 15:09:50,886 - ProcessDataLogger - INFO - Iniciando o pipeline de processamento de dados
+2024-07-08 15:09:50,886 - ProcessDataLogger - INFO - Lendo dados de entrada
+2024-07-08 15:09:50,886 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/condominios
+2024-07-08 15:09:54,618 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/moradores
+2024-07-08 15:09:54,932 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/imoveis
+2024-07-08 15:09:55,163 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/transacoes
+2024-07-08 15:09:55,708 - ProcessDataLogger - INFO - Processando dados
+2024-07-08 15:09:56,146 - ProcessDataLogger - INFO - Salvando dados transformados no Data Lake
+2024-07-08 15:11:01,815 - ProcessDataLogger - ERROR - Erro ao salvar dados transformados: An error occurred while calling o146.awaitTermination
+2024-07-08 15:11:14,422 - ProcessDataLogger - INFO - Inicializando o objeto de processamento de dados
+2024-07-08 15:11:14,423 - ProcessDataLogger - INFO - Iniciando a sessão Spark
+2024-07-08 15:11:16,600 - ProcessDataLogger - INFO - Iniciando o pipeline de processamento de dados
+2024-07-08 15:11:16,601 - ProcessDataLogger - INFO - Lendo dados de entrada
+2024-07-08 15:11:16,601 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/condominios
+2024-07-08 15:11:20,069 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/moradores
+2024-07-08 15:11:20,245 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/imoveis
+2024-07-08 15:11:20,463 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/transacoes
+2024-07-08 15:11:20,983 - ProcessDataLogger - INFO - Processando dados
+2024-07-08 15:11:21,426 - ProcessDataLogger - INFO - Salvando dados transformados no Data Lake
+2024-07-08 15:11:55,108 - ProcessDataLogger - ERROR - Erro ao salvar dados transformados: An error occurred while calling o145.awaitTermination
+2024-07-08 15:12:08,812 - ProcessDataLogger - INFO - Inicializando o objeto de processamento de dados
+2024-07-08 15:12:08,812 - ProcessDataLogger - INFO - Iniciando a sessão Spark
+2024-07-08 15:12:10,987 - ProcessDataLogger - INFO - Iniciando o pipeline de processamento de dados
+2024-07-08 15:12:10,987 - ProcessDataLogger - INFO - Lendo dados de entrada
+2024-07-08 15:12:10,988 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/condominios
+2024-07-08 15:12:14,404 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/moradores
+2024-07-08 15:12:14,600 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/imoveis
+2024-07-08 15:12:14,815 - ProcessDataLogger - INFO - Obtendo schema para s3_simulator/raw/db_data/transacoes
+2024-07-08 15:12:15,297 - ProcessDataLogger - INFO - Processando dados
+2024-07-08 15:12:15,712 - ProcessDataLogger - INFO - Salvando dados transformados no Data Lake
+2024-07-08 15:20:47,353 - ProcessDataLogger - ERROR - Erro ao salvar dados transformados: An error occurred while calling o145.awaitTermination
+2024-07-08 15:20:47,665 - ProcessDataLogger - INFO - Pipeline de processamento de dados concluído
